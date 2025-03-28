@@ -6,12 +6,23 @@ const AdminPage = () => {
     {/* LEFT */}
     <div className="w-full lg:w-2/3">
     {/* USER CARDS */}
-    <div className=" flex gap-4 justify-between">
+    <div className=" flex gap-4 justify-between flex-wrap">
       <UserCard type="student" />
       <UserCard type="teacher" />
       <UserCard type="parent" />
       <UserCard type="staff" />
     </div>
+
+    // middle charts
+    <div className=" flex gap-4 flex-col lg:flex-row">
+    // count chart
+      <div className="w-full lg:w-1/3 h-[450px]"></div>
+    // attendance chart
+      <div className="w-full lg:w-2/3 h-[450px]"></div>
+
+    </div>
+    // bottom charts
+    <div className=""></div>
     
     </div>
 
@@ -21,6 +32,6 @@ const AdminPage = () => {
 
   </div>
   ) 
-};
+}
 
-export default AdminPage;
+export default AdminPage
