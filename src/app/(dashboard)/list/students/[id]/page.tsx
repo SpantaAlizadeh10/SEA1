@@ -15,10 +15,10 @@ const SingleStudentPage = () => {
         {/*user info card */}
         <div className="bg-se1aSky py-6 px-4 rounded-md flex-1 flex gap-4">
           <div className="w-1/3">
-          <Image src="/student.jpg" alt="cartImage" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
+          <Image src="/studend.jpg" alt="cartImage" width={144} height={144} className="w-36 h-36 rounded-full object-cover" />
           </div>
           <div className="w-2/3 flex flex-col justify-between gap-4">
-          <h1 className="text-xl font-semibold">Atrin moradi</h1>
+          <h1 className="text-xl font-semibold">Atrin babayi</h1>
           <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Voluptatum suscipit </p>
             <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
@@ -36,7 +36,7 @@ const SingleStudentPage = () => {
               </div>
               <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
                 <Image src="/phone.png" alt="" width={14} height={14}/>
-                <span>234, 4564</span>
+                <span>234,5677</span>
               </div>
             </div>
           </div>
@@ -63,8 +63,8 @@ const SingleStudentPage = () => {
              <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
               <Image src="/singleLesson.png" alt="" width={24} height={24} className="w-6 h-6"/>
               <div className="">
-                <h1 className="text-xl font-semibold">6A</h1>
-                <span className="text-sm text-gray-400">Class</span>
+                <h1 className="text-xl font-semibold">18</h1>
+                <span className="text-sm text-gray-400">Lessons</span>
               </div>
             </div>
 
@@ -72,8 +72,8 @@ const SingleStudentPage = () => {
              <div className="bg-white p-4 rounded-md flex gap-4 w-full md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
               <Image src="/singleClass.png" alt="" width={24} height={24} className="w-6 h-6"/>
               <div className="">
-                <h1 className="text-xl font-semibold">90%</h1>
-                <span className="text-sm text-gray-400">Attendence</span>
+                <h1 className="text-xl font-semibold">6A</h1>
+                <span className="text-sm text-gray-400">Class</span>
               </div>
             </div>
 
@@ -94,9 +94,9 @@ const SingleStudentPage = () => {
           <h1 className="text-xl font-semibold">Shortcuts</h1>
           <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
             <Link className="p-3 rounded-md bg-se1aSkyLight" href="/">Student&apos;s Lessons</Link>
-            <Link className="p-3 rounded-md bg-se1aPurpleLight" href="/">Student&apos;s Teachers</Link>
-            <Link className="p-3 rounded-md bg-pink-50" href="/">Student&apos;s Exams</Link>
+            <Link className="p-3 rounded-md bg-se1aPurpleLight" href="/">Student&apos;s Teacher</Link>
             <Link className="p-3 rounded-md bg-se1aYellowLight" href="/">Student&apos;s Result</Link>
+            <Link className="p-3 rounded-md bg-pink-50" href="/">Student&apos;s Exams</Link>
             <Link className="p-3 rounded-md bg-se1aSkyLight" href="/">Student&apos;s Assignments</Link>
          
           </div>
@@ -109,3 +109,7 @@ const SingleStudentPage = () => {
 };
 
 export default SingleStudentPage;
+
+
+
+
